@@ -1,3 +1,99 @@
+    1  git -- version
+    3  git init
+   15  git clone git@github.com:tiredgremlin/BikeShare.git
+   18  git config --list --show-origin
+   19  git config --global init.defaultBranch main
+   20  git config --list
+   21  git config --global user.name "Liz Baer"
+   22  git config --global user.email ekbaer@byu.edu
+   23  git config --list
+   24  git config init.defaultbranch
+   25  git -- version
+   26  git --version
+   32  git --version
+   33  git help
+   34  git status
+   35  git config --global core.editor "code --wait"
+   40  git config --list
+   53  mkdir git-practice-tiredlizard
+   54  cd git-practice-tiredlizard
+   55  git init
+   56  git status
+   60  git status
+   61  git add
+   62  git add .
+   63  git status
+   64  git commit -m 'create new files'
+   65  git status
+   66  git log
+   67  git status
+   68  git add file_1.txt
+   69  git status
+   70  git commit -m "file_1 edit"
+   71  git status
+   72  git add file_2.txt
+   73  git commit -m "file_2 edit"
+   74  git log
+   76  git status
+   77  git add .
+   78  git commit -m 'readme commit'
+   79  git log
+   80  touch .gitignore
+   81  git add .
+   82  git commit -m 'gitignore'
+   84  git status
+   85  git rm --cached api-keys.txt
+   86  open .gitignore
+   87  git status
+   89  git status
+   90  git add .
+   91  git commit -m 'add file to gitignore'
+   92  git status
+   94  git status
+   95  git checkout -b features
+   96  git log
+   97  git status
+  100  cd git-practice-tiredlizard
+  101  git status
+  102  git log
+  103  git log --oneline
+  104  git status
+  105  git log --oneline
+  108  git add .
+  109  git status
+  110  git commit -m "add empty file"
+  112  git branch
+  113  git status
+  114  git add .
+  115  git commit -m "add text to new_features"
+  116  git checkout main
+  118  git add .
+  119  git commit -m "change file_1 text"
+  120  git merge feature
+  121  git merge features
+  122  git commit -m "merge features into main"
+  123  git log --oneline
+  126  git status
+  127  git add .
+  128  git commit -m "replace new_features text"
+  129  git switch features
+  131  git log --oneline
+  132  git branch
+  134  git add .
+  135  git commit -m "replace new_features text on features branch"
+  136  git switch main
+  137  git merge features
+  139  git status
+  140  git add new_features.txt
+  141  git status
+  142  git commit -m "merge and resolve conflicts"
+  143  git log --oneline
+  144  git branch -d features
+  145  git status
+  146  git remote add origin git@github.com:tiredlizard/git-practice-tiredlizard.git
+  147  git push -u origin main
+  148  git push -u origin main
+  149  git remote add origin git@github.com:tiredlizard/git-practice-InjoongK.git
   151  git clone git@github.com:tiredlizard/git-practice-InjoongK.git
   152  cd git-practice-InjoongK
   153  git checkout -b feature-tiredlizard
@@ -10,3 +106,10 @@
   163  git status
   165  git log --oneline > gitlog.txt
   166  git status
+  167  history | grep git > history.txt
+  168  git status
+  169  git add .
+  170  git commit -m "files for grading"
+  171  git log --oneline
+  172  open gitlog.txt
+  173  git push
