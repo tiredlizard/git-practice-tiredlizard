@@ -1,0 +1,12 @@
+  151  git clone git@github.com:tiredlizard/git-practice-InjoongK.git
+  152  cd git-practice-InjoongK
+  153  git checkout -b feature-tiredlizard
+  156  git add .
+  157  git status
+  158  git commit -m "made new file heyo.txt"
+  159  git push origin feature-tiredlizard
+  161  cd git-practice-tiredlizard
+  162  git pull
+  163  git status
+  165  git log --oneline > gitlog.txt
+  166  git status

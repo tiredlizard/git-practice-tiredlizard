@@ -1,0 +1,15 @@
+43a65f1 Merge pull request #1 from InjoongK/feature-InjoongK
+eb7f322 Added new file
+b4d5313 merge and resolve conflicts
+65a5b17 replace new_features text on features branch
+64f34a4 replace new_features text
+919cf94 merge features into main
+dcd0730 change file_1 text
+50d2c0b add text to new_features
+6391248 add empty file
+8f5fd29 add file to gitignore
+02c2049 gitignore
+1d7546a readme commit
+85f042d file_2 edit
+cb7828b file_1 edit
+b6f4e2b create new files
